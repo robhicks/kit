@@ -183,6 +183,9 @@ importers:
       rollup:
         specifier: ^3.7.0
         version: 3.7.0
+      throng:
+        specifier: ^5.0.0
+        version: 5.0.0
     devDependencies:
       '@polka/url':
         specifier: ^1.0.0-next.21
@@ -4639,7 +4642,6 @@ packages:
 
   /lodash@4.17.21:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
-    dev: true
 
   /loupe@2.3.6:
     resolution: {integrity: sha512-RaPMZKiMy8/JruncMU5Bt6na1eftNoo++R4Y+N2FrxkDVTrGvcyzFTsaGif4QTeKESheMGegbhw6iUAq+5A8zA==}
@@ -6407,6 +6409,13 @@ packages:
     dependencies:
       any-promise: 1.3.0
     dev: true
+
+  /throng@5.0.0:
+    resolution: {integrity: sha512-nrq7+qQhn/DL8yW/wiwImTepfi6ynOCAe7moSwgoYN1F32yQMdBkuFII40oAkb3cDfaL6q5BIoFTDCHdMWQ8Pw==}
+    engines: {node: '>= 10'}
+    dependencies:
+      lodash: 4.17.21
+    dev: false
 
   /tiny-glob@0.2.9:
     resolution: {integrity: sha512-g/55ssRPUjShh+xkfx9UPDXqhckHEsHr4Vd9zX55oSdGZc/MD0m3sferOkwWtp98bv+kcVfEHtRJgBVJzelrzg==}
